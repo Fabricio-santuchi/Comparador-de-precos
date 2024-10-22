@@ -111,7 +111,7 @@ PROJETO-COMPARADOR/
 
 ## 📚 Projeto Inspirado
 
-Este projeto foi inspirado em um vídeo do **DevClub**, onde aprendi a implementar um comparador de preços usando a API do Mercado Livre. Você pode conferir o vídeo [aqui](https://www.youtube.com/watch?v=lNf4CUHtEGo&ab_channel=DevClub%7CPrograma%C3%A7%C3%A3o). Agradeço ao DevClub pelo excelente conteúdo que ajudou a aprimorar minhas habilidades em desenvolvimento.
+Este projeto foi inspirado em um vídeo do **DevClub | Programação**, onde aprendi a implementar um comparador de preços usando a API do Mercado Livre. Você pode conferir o vídeo [aqui](https://www.youtube.com/watch?v=lNf4CUHtEGo&ab_channel=DevClub%7CPrograma%C3%A7%C3%A3o). Agradeço ao DevClub pelo excelente conteúdo que ajudou a aprimorar minhas habilidades em desenvolvimento.
 
 ## ✍️ Autor
 
