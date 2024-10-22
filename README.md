@@ -109,9 +109,9 @@ PROJETO-COMPARADOR/
 - **ESLint**: Ferramenta para identificar e corrigir problemas no código.
 - **Vite Plugin React**: Suporte para React dentro do Vite.
 
-## 📚 Projeto
+## 📚 Projeto Inspirado
 
-Este projeto é uma aplicação pessoal desenvolvida com o objetivo de praticar e aprimorar habilidades em **React** e **Vite**, explorando conceitos de APIs e visualização de dados.
+Este projeto foi inspirado em um vídeo do **DevClub**, onde aprendi a implementar um comparador de preços usando a API do Mercado Livre. Você pode conferir o vídeo [aqui](https://www.youtube.com/watch?v=lNf4CUHtEGo&ab_channel=DevClub%7CPrograma%C3%A7%C3%A3o). Agradeço ao DevClub pelo excelente conteúdo que ajudou a aprimorar minhas habilidades em desenvolvimento.
 
 ## ✍️ Autor
 
