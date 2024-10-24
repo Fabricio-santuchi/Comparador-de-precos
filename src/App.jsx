@@ -26,6 +26,7 @@ const ContainerForm = styled.form`
 `;
 
 const InputText = styled.input`
+  min-width: 100px;
   flex-grow: 1;
   padding: 12px;
   font-size: 16px;
@@ -52,6 +53,13 @@ const ButtonBuscar = styled.button`
   }
 `;
 
+const MsgDeError = styled.p`
+  text-align: center;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
+`;
+
 const ContainerDeProdutos = styled.div`
   display: grid;
   gap: 25px;
@@ -63,9 +71,22 @@ function App() {
   const [search, setSearch] = useState("");
   const [data, setData] = useState([]);
   const [isDataLoaded, setIsDataLoaded] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleSearch = async (event) => {
     event.preventDefault();
+
+    if (!search) {
+      setErrorMessage(
+        "Ops! Parece que você esqueceu de digitar o nome do produto. Pode tentar de novo?"
+      );
+      setData([]);
+      setIsDataLoaded(false);
+      return;
+    }
+
+    setErrorMessage("");
+
     try {
       const response = await axios.get(
         `https://api.mercadolibre.com/sites/MLB/search?q=${search}`
@@ -92,6 +113,7 @@ function App() {
         />
         <ButtonBuscar type="submit">Buscar</ButtonBuscar>
       </ContainerForm>
+      {errorMessage && <MsgDeError>{errorMessage}</MsgDeError>}
 
       <ContainerDeProdutos>
         {data && data.map((item) => <Cards key={item.id} item={item} />)}
