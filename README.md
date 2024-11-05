@@ -1,6 +1,6 @@
 # Comparador de Preços
 
-Veja o projeto em funcionamento: [Comparador de Preços na Vercel](https://comparador-de-precos-rho.vercel.app/)
+Veja o projeto em funcionamento: [Comparador de Preços na Vercel](https://caffeine-oasis.vercel.app/)
 
 Este projeto foi desenvolvido com o objetivo de permitir que os usuários pesquisem produtos e comparem preços disponíveis no **Mercado Livre**. A aplicação consulta a API do Mercado Livre para fornecer resultados em tempo real, permitindo que o usuário visualize os melhores preços e redirecione-se para a loja de compra.
 
